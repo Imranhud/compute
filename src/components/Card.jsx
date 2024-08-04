@@ -16,7 +16,7 @@ const Card = () => {
                     <img src={quotes} alt="quotes"  className='w-[42px] h-[27px] object-contain'/>
                 </div>
                 <p className='font-poppins font-normal text-[18px] leading-[32px] text-white my-5'>{item.content}</p>
-                <img src={item.Imag} alt="" className='w-[360px] rounded-full h-[360px] object-contain'/>
+                <img src={item.Imag} alt="" className='w-[440px] rounded-full h-[450px] object-contain'/>
             </div>
         ))}
     </div>
