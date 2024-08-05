@@ -20,7 +20,7 @@ export const studets = [
 export const CardItems = [
   { id : 1, 
     Imag : image1, 
-    content : "loremi imra h dhud safiyau yau si sai mace mwasa "
+    content : "Its time to imra h dhud safiyau yau si sai mace mwasa "
   },
   { id : 2, 
     Imag : image2, 
