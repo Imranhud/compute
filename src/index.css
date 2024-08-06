@@ -1,8 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@media screen and (max-width:500px) {
+h1, p{
+  text-align: center;
+  }
+}
 
-
+@media screen and (min-width:500px) {
+  #hero-text{
+    font-size: 6rem;
+    font-family: sans-serif;
+    margin-top: 10rem;  
+    height: 10px;
+    font-size: 5rem;
+  }
+  .items{
+    width: 50vw;
+    padding: 5rem;
+    /* height: 60vh; */
+    /* border: 3px solid white; */
+  }
+  p{
+    font-size: 2rem;
+    padding-left: 5rem;
+  }
+  #press{
+    margin-left: 5rem;
+  }
+  .items{
+    bottom: 3px solid white ;
+  color: #fff;
+  }
+}
+  
 
 /* Set-ExecutionPolicy RemoteSigned -Scope Process */
 

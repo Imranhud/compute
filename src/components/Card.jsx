@@ -10,7 +10,8 @@ const Card = () => {
     <div className="flex bg-red-300 justify-center flex-wrap px-2 py-12 
     rounded-[20px] max-w-[100%] md:mr-10 sm:mr-5 mr-3 mt-5 rounded-b-none">
         
-        {CardItems.map((item) => (
+        {CardItems.map((item) =>
+         (
             <div key={item.id} className="flex flex-col mx-4">
                 <div className="">
                     <img src={quotes} alt="quotes"  className='w-[42px] h-[27px] object-contain'/>

@@ -7,10 +7,10 @@ import close from '../assets/close.svg'
 
 
 const lists = [
-  {id : 1 , list : "ICT"},
-  {id : 2 , list : "HTML"},
-  {id : 3 , list : "CSS"},
-  {id : 4 , list : "JAVA"}
+  {id : 1 , list : "Register"},
+  {id : 2 , list : "Studet"},
+  {id : 3 , list : "Courses"},
+  {id : 4 , list : "About"}
 ];
 
 const HeadV = () => {

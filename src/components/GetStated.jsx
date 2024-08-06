@@ -2,7 +2,7 @@ import React from 'react'
 
 export const styless = {
     // cursor : "poiter",
-    clipPath : "polygon(0% 0%, 100% 5%, 100% 100%, 0% 100%)",
+    // clipPath : "polygon(0% 0%, 100% 5%, 100% 100%, 0% 100%)",
   }
   
 
