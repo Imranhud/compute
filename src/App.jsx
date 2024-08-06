@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Cliets from './components/Cliets'
 import Card from './components/Card'
 import Footer from './components/Footer copy'
+import GetStated from './components/GetStated'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <Cliets />
       <Card />
+      <GetStated />
       <Footer />
     </div>
   )

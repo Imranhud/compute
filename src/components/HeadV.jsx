@@ -23,7 +23,7 @@ const HeadV = () => {
 
   return (
     <div className='bg-black'>
-      <div className="text-white mx-3 flex justify-between items-center">
+      <div className="text-white flex border-b-2 justify-between ml-2 pt-2 items-center">
         <div className="flex">
           <img src={menu} alt="Logo" /><span className='mx-2 font-serif font-semibold'>COMPUTE</span>
         </div>
