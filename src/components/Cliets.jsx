@@ -5,7 +5,7 @@ import { studets } from "../costas/idext";
 
 export const styles = {
   // cursor : "poiter",
-  clipPath : "polygon(0% 0%, 100% 20%, 100% 100%, 0% 100%)",
+  // clipPath : "polygon(0% 0%, 100% 20%, 100% 100%, 0% 100%)",
 }
 
 function Cliets() {

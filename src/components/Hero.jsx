@@ -9,7 +9,7 @@ const Hero = () => {
             <h1 className='items
           '><span className='text-[54px] font-sans font-semibold text-teal-300' id='hero-text'>
             Join Compute Today!</span></h1> 
-            <p>Your  Gateway to Technology Mastery.</p>
+            <p>The Secret to Technology Mastery.</p>
             <button className='bg-red-500 w-[20rem] rounded-full font-semibold h-14 mx-4 my-4' id='press'>GET STATED!</button>
         </div>
         <div className="bg-red-800 flex">

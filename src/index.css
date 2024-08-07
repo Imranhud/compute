@@ -18,23 +18,36 @@ h1, p{
   .items{
     width: 50vw;
     padding: 5rem;
+    padding-bottom: 2rem;
     /* height: 60vh; */
     /* border: 3px solid white; */
   }
   p{
     font-size: 2rem;
     padding-left: 5rem;
+    padding-bottom: 6rem;
   }
   #press{
     margin-left: 5rem;
+    /* padding-bottom: 4rem; */
   }
   .items{
     bottom: 3px solid white ;
   color: #fff;
   }
 }
-  
-
+  .Card2{
+  width: 30vw;
+  border: 3px solid red;
+  border: #d8d6d6;
+  }
+  .Card2 h1{
+    color: red;
+  }
+  .Card2 p{
+    color: red;
+    text-align: left;
+  }
 /* Set-ExecutionPolicy RemoteSigned -Scope Process */
 
 /* 
