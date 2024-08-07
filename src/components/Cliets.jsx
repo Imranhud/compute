@@ -10,16 +10,16 @@ export const styles = {
 
 function Cliets() {
     return (
-        <div style={styles} className="bg-white py-10">
+        <div style={styles} className="bg-white text-center py-10">
             <h1 className="mt-5 text-red-400 text-center text-[32px] py-5 font-semibold font-mono">Start Your Tech World With Us...</h1>
-            <p className="text-black text-[19px] font-semibold text-center">Lorem ipsum, dolor amet consectetur adipisicing elit.</p>
+            <span className="text-black text-[19px] font-semibold text-center">Lorem ipsum, dolor amet consectetur adipisicing elit.</span>
             <div className="flex bg-white justify-center items-center flex-wrap w-full">
                 {studets.map( (std) => ( 
                     
                         <div key={std.id} className={`flex items-center lg:justify-around flex-wrap flex-row ml-3 `}>
                           <h4 className="font-poppins font-semibold xs:text[40px] text-[30px] 
                            xs:leading-[53px] text-black">{std.figures}</h4>
-                          <p className="font-poppins font-normal text-dimWhite ml-1 text-[18px]  mb-1">{std.title}</p>
+                          <span className="font-poppins font-normal text-dimWhite ml-1 text-[18px]  mb-1">{std.title}</span>
                         </div>
                     
                 ))}

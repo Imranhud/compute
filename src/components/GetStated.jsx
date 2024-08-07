@@ -6,6 +6,27 @@ export const styless = {
   }
   
 
+  const PricingBanner = () => {
+    return (
+      <div className="flex flex-col lg:flex-row items-center justify-center bg-gray-100 p-8 rounded-lg shadow-lg">
+        {/* Left Side */}
+        <div className="bg-blue-500 text-white p-6 m-4 rounded-lg flex-1 flex items-center justify-center">
+          <p className="text-xl lg:text-2xl font-semibold">
+            It's only 5,000 Naira to get Access to the Course
+          </p>
+        </div>
+        {/* Right Side */}
+        <div className="bg-green-500 text-white p-6 m-4 rounded-lg flex-1 flex items-center justify-center">
+          <p className="text-xl lg:text-2xl font-semibold">
+            Get access to all courses at 30,000 naira only
+          </p>
+        </div>
+      </div>
+    );
+  };
+  
+  export default PricingBanner;
+  
 
 const GetStated = () => {
   return (
@@ -19,4 +40,4 @@ const GetStated = () => {
   )
 }
 
-export default GetStated
+// export default GetStated
