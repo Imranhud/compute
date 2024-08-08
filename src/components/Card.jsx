@@ -29,22 +29,22 @@
 // export default Card
 
 
-
+// C:\Users\hp\Desktop\quiz-app\src\assets\001.jpg
 // import React from 'react';
 
 const cardData = [
   {
-    image: "/src/assets/001.jpg",
+    image: "001.jpg",
     title: "Basics of Computer",
     description: "Learn the fundamentals of computing, including hardware, software, and essential skills."
   },
   {
-    image: "src/assets/0022.jpg",
+    image: "0022.jpg",
     title: "Arabic Computing",
     description: "Start your Arabic Computing journey with this beginner-friendly course."
   },
   {
-    image: "src/assets/002.jpg",
+    image: "002.jpg",
     title: "Web Development",
     description: "Build modern websites with HTML, CSS, and JavaScript."
   },

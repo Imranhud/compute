@@ -1,7 +1,7 @@
 import { list } from 'postcss'
 import React, { useState } from 'react'
-import menu from '../assets/menu.svg'
-import close from '../assets/close.svg'
+import menu from '../../public/assets/menu.svg'
+import close from '../../public/assets/close.svg'
 
 
 
