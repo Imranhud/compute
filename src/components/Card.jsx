@@ -31,7 +31,6 @@
 
 
 // import React from 'react';
-// import Card2 from './Card2'; // Adjust the path as needed
 
 const cardData = [
   {
@@ -87,7 +86,6 @@ const Card = () => {
 }
 
 export default Card;
-// import React from 'react';
 
 const Card2 = ({ image, title, description }) => {
   return (
@@ -108,5 +106,4 @@ const Card2 = ({ image, title, description }) => {
   );
 }
 
-// export  Card2;
 

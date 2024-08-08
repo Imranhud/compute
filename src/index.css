@@ -3,51 +3,80 @@
 @tailwind utilities;
 
 @media screen and (max-width:500px) {
+  .items p{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(14, 219, 219) !important;
+    font-weight: 600;
+    /* padding: 2rem; */
+    /* margin-left: 1rem; */
+  }
+  #aud{
+    color: rgb(255, 251, 0);
+    padding: 0;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .press{
+    /* border: 2px solid #d8d6d6; */
+    margin-left: 3.5rem !important;
 
+  }
+  button {
+  }
 }
 
 @media screen and (min-width:500px) {
- 
-  #hero-text{
-     font-size: 6rem;
-     font-family: sans-serif;
-     text-align: left;
-     padding: 5rem;
-     margin-top: 10rem;  
-     /* height: 10px; */
-     font-size: 5rem;
-   }
+  p{
+    font-size: 2rem;
+    padding-left: 7rem !important;
+    /* padding-bottom: 6rem; */
+  }
+  #aud{
+    color: rgb(255, 251, 0);
+    padding-left: 5rem;
+    padding: 0;
+    padding-bottom: 3rem;
+  }
+     .items{
+      width: 50vw;
+      /* border: 2px solid #d8d6d6; */
+  padding: 1rem; 
+  padding-bottom: 2rem !important;
+  /* display: flex; */
+  flex-wrap: wrap;
+  height: 55vh;
+  /* border: 3px solid white; */
+}
+ .items p{
+  font-size: 5rem;
+  color: rgb(14, 219, 219) !important;
+  font-weight: 600;
+  /* margin-left: 1rem; */
+}
+.mt-5{
+  font-size: 5rem;
+  color: rgb(21, 136, 10) !important;
+  font-weight: 700;
+}
 }
 
-  .Card2{
-    width: 100vw;
-    border: 2px solid #d8d6d6;
-    background-color: #d8d6d6;
-    /* border-radius: 2rem; */
-    }
+.Card2{
+  width: 100vw;
+  border: 2px solid #d8d6d6;
+  background-color: #d8d6d6;
+  /* border-radius: 2rem; */
+}
     .card{
       margin: 0;
       padding: 0;
     }
+    
 
-
-
-
-.items{
-  width: 55vw;
-  padding: 1rem; 
-  padding-bottom: 2rem;
-  /* height: 60vh; */
-  /* border: 3px solid white; */
-}
-p{
-  font-size: 2rem;
-  padding-left: 5rem;
-  padding-bottom: 6rem;
-}
-#press{
-  margin-left: 5rem;
-  /* padding-bottom: 4rem; */
+button {
+  margin-left: 7rem !important;
+  margin-bottom: 1rem;
 }
 .items{
   bottom: 3px solid white ;

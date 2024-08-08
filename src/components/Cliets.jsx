@@ -11,8 +11,8 @@ export const styles = {
 function Cliets() {
     return (
         <div style={styles} className="bg-white text-center py-10">
-            <h1 className="mt-5 text-red-400 text-center text-[32px] py-5 font-semibold font-mono">Start Your Tech World With Us...</h1>
-            <span className="text-black text-[19px] font-semibold text-center">Lorem ipsum, dolor amet consectetur adipisicing elit.</span>
+            <h1 className="mt-5 text-red-400 text-center text-[32px] py-5 font-semibold ">Start Your Tech World With Us...</h1>
+            <span className="text-black text-[50px] font-semibold text-center">Over.</span>
             <div className="flex bg-white justify-center items-center flex-wrap w-full">
                 {studets.map( (std) => ( 
                     
