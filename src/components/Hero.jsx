@@ -1,5 +1,5 @@
 import React from 'react'
-import image8 from '../../public/assets/image8.jpg'
+import image8 from '../../src/assets/image8.jpg'
 
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
             <p>Join Compute <b/> Today!</p>
             </h1>
               {/* <span className='text-[54px] sm: font-sans font-semibold text-teal-300' id='hero-'>
-            Join Compute <b/> Today! khguyg</span></h1>  */}
+            Join Compute <b/> Today! khguyg</span>< /h1>  */}
             <p id='aud'>The Secret to Technology Mastery.</p>
             <button className='press bg-red-500 w-[20rem] rounded-full font-semibold h-14 mx-4 my-4'>GET STATED!</button>
         </div>

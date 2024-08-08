@@ -34,37 +34,37 @@
 
 const cardData = [
   {
-    image: "001.jpg",
+    image: "../../src/assets/001.jpg",
     title: "Basics of Computer",
     description: "Learn the fundamentals of computing, including hardware, software, and essential skills."
   },
   {
-    image: "0022.jpg",
+    image: "../../src/assets/0022.jpg",
     title: "Arabic Computing",
     description: "Start your Arabic Computing journey with this beginner-friendly course."
   },
   {
-    image: "002.jpg",
+    image: "../../src/assets/002.jpg",
     title: "Web Development",
     description: "Build modern websites with HTML, CSS, and JavaScript."
   },
   {
-    image: "src/assets/003.jfif",
+    image: "../../src/assets/003.jfif",
     title: "Use of Internet",
     description: "Dive into modern networking."
   },
   {
-    image: "src/assets/004.jfif",
+    image: "../../src/assets/004.jfif",
     title: "Artificial Inteligence",
     description: "Explore the basics of AI."
   },
   {
-    image: "src/assets/005.jfif",
+    image: "../../src/assets/005.jfif",
     title: "The Whole Tech",
     description: "Learn how to access every area of technology."
   },
   {
-    image: "src/assets/006.jfif",
+    image: "../../src/assets/006.jfif",
     title: "Crypto Master Class",
     description: "Understand the basic of Crypto and Financial Market."
   }
