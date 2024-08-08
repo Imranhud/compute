@@ -8,7 +8,7 @@ export const styless = {
 
   const PricingBanner = () => {
     return (
-      <div className="flex flex-col lg:flex-row items-center justify-center bg-gray-100 p-8 rounded-lg shadow-lg">
+      <div className="flex flex-col lg:flex-row items-center justify-center bg-gray-100 p-8  shadow-lg">
         {/* Left Side */}
         <div className="bg-blue-500 text-white p-6 m-4 rounded-lg flex-1 flex items-center justify-center">
           <p className="text-xl lg:text-2xl font-semibold">
