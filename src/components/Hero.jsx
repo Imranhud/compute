@@ -12,7 +12,9 @@ const Hero = () => {
               {/* <span className='text-[54px] sm: font-sans font-semibold text-teal-300' id='hero-'>
             Join Compute <b/> Today! khguyg</span>< /h1>  */}
             <p id='aud'>The Secret to Technology Mastery.</p>
-            <button className='press bg-red-500 w-[20rem] rounded-full font-semibold h-14 mx-4 my-4'>GET STATED!</button>
+            <button className='press bg-red-500 w-[20rem] rounded-full font-semibold h-14 mx-4 my-4'>
+              <a href="https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm">GET STATED!</a>
+              </button>
         </div>
         <div className="bg-red-800 flex">
             <img src={image8} alt="" className='object-contain' />

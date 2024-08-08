@@ -119,41 +119,49 @@ const cardData = [
   {
     image: image1,
     title: "Basics of Computer",
-    description: "Learn the fundamentals of computing, including hardware, software, and essential skills."
+    description: "Learn the fundamentals of computing, including hardware, software, and essential skills.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
   },
   {
     image: image2,
     title: "Arabic Computing",
-    description: "Start your Arabic Computing journey with this beginner-friendly course."
+    description: "Start your Arabic Computing journey with this beginner-friendly course.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
+
   },
   {
     image: image3,
     title: "Web Development",
-    description: "Build modern websites with HTML, CSS, and JavaScript."
+    description: "Build modern websites with HTML, CSS, and JavaScript.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
   },
   {
     image: image4,
     title: "Use of Internet",
-    description: "Dive into modern networking."
+    description: "Dive into modern networking.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
   },
   {
     image: image5,
     title: "Artificial Intelligence",
-    description: "Explore the basics of AI."
+    description: "Explore the basics of AI.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
   },
   {
     image: image6,
     title: "The Whole Tech",
-    description: "Learn how to access every area of technology."
+    description: "Learn how to access every area of technology.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
   },
   {
     image: image7,
     title: "Crypto Master Class",
-    description: "Understand the basics of Crypto and Financial Market."
+    description: "Understand the basics of Crypto and Financial Market.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
   }
 ];
 
-const Card2 = ({ image, title, description }) => {
+const Card2 = ({ image, title, description, enroll }) => {
   return (
     <div className='Card2 border m-4 rounded-lg shadow-lg'>
       <div className="image ">
@@ -166,7 +174,9 @@ const Card2 = ({ image, title, description }) => {
         <h2 className="text-gray-600">{description}</h2>
       </div>
       <div className="enroll">
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Enroll this course</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+          <a href={enroll}>Enroll this course</a>
+        </button>
       </div>
     </div>
   );
@@ -181,6 +191,7 @@ const Card = () => {
           image={course.image}
           title={course.title}
           description={course.description}
+          enroll={course.enroll}
         />
       ))}
     </div>
