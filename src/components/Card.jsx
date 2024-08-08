@@ -34,7 +34,7 @@
 
 const cardData = [
   {
-    image: "src/assets/001.jpg",
+    image: "../src/assets/001.jpg",
     title: "Basics of Computer",
     description: "Learn the fundamentals of computing, including hardware, software, and essential skills."
   },
