@@ -12,7 +12,7 @@ const SocialLinks = () => {
       {/* Facebook */}
       <a href="https://www.facebook.com/YOUR_PROFILE" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
-        <div className="">Faceook</div>
+        <div className="https://web.facebook.com/profile.php?id=61564028339788">Faceook</div>
       </a>
       {/* YouTube */}
       <a href="https://www.youtube.com/channel/YOUR_CHANNEL" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:text-red-700">

@@ -114,6 +114,7 @@ import image4 from '../assets/003.jfif'; // Adjust path as needed
 import image5 from '../assets/004.jfif'; // Adjust path as needed
 import image6 from '../assets/005.jfif'; // Adjust path as needed
 import image7 from '../assets/006.jfif'; // Adjust path as needed
+import image8 from '../assets/007.jfif'; // Adjust path as needed
 
 const cardData = [
   {
@@ -151,6 +152,12 @@ const cardData = [
     image: image6,
     title: "The Whole Tech",
     description: "Learn how to access every area of technology.",
+    enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
+  },
+  {
+    image: image8,
+    title: "Magical Computing",
+    description: "Understand the basics and enjoy the magical power of computers.",
     enroll:"https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm"
   },
   {

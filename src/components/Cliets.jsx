@@ -1,5 +1,5 @@
 import React from "react";
-import { studets } from "../costas/idext";
+import { studets } from "../constants/indext";
 
 
 
