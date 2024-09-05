@@ -14,9 +14,9 @@ function Cliets() {
             <h1 className="mt-5 text-red-400 text-center text-[32px] py-5 font-semibold ">Start Your Tech World With Us...</h1>
             <span className="text-black text-[50px] font-semibold text-center">We tech in.</span>
             <div className="language">
-              <div className="lang">ARABIC</div>
-              <div className="lang">HAUSA</div>
-              <div className="lang">ENGLISH</div>
+              <div className="lang text-[1.5rem] text-red-300"></div>
+              <div className="lang text-[1.5rem] text-red-300">HAUSA</div>
+              <div className="lang text-[1.5rem] text-red-300"></div>
               </div>
               {/* <span className="text-black text-[50px] font-semibold text-center">ARABIC HAUSA AND ENGLISH.</span></div> */}
             {/* <div className="flex bg-white justify-center items-center flex-wrap w-full">

@@ -1,10 +1,9 @@
 import React from 'react'
 import image8 from '../../src/assets/image8.jpg'
 
-
 const Hero = () => {
   return (
-    <div className='items-center w-full justify-between flex flex-col sm:flex-row'>
+    <div className='w-full justify-between flex flex-col sm:flex-row'>
         <div className="text-white">
             <h1 className='items'>
             <p>Join Compute <b/> Today!</p>
@@ -16,8 +15,8 @@ const Hero = () => {
               <a href="https://www.cognitoforms.com/Technoligentform/ComputeCoursesForm">GET STATED!</a>
               </button>
         </div>
-        <div className="bg-red-800 flex">
-            <img src={image8} alt="" className='object-contain' />
+        <div className="flex">
+            <img src={image8} alt="" className='h-[500px] sm:min-h-[150px] ' />
         </div>
     </div>
   )

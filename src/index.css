@@ -23,11 +23,11 @@
     margin-left: 3.5rem !important;
 
   }
-  button {
-  }
+
 }
 
 @media screen and (min-width:500px) {
+
   p{
     font-size: 2rem;
     padding-left: 7rem !important;
@@ -185,6 +185,42 @@ border-top-right-radius: 1rem;
   font-size: 2rem;
   font-weight: 800;
 }
+table{
+  width: 20rem;
+  /* color: rgb(248, 245, 245)(54, 49, 49)(54, 49, 49)(54, 49, 49)(54, 49, 49)(54, 49, 49)(54, 49, 49)(54, 49, 49)(54, 49, 49)(54, 49, 49); */
+}
+tr th {
+  /* display: flex; */
+  width: 60%;
+  flex-direction:column;
+  text-align: left;
+border: 3px solid #fff;
+  padding-left: 1rem;
+}
+td{
+  padding-left: 1rem;
+  border-bottom: 3px solid #fff;
+  font-size: 12px;
+  padding: 1rem;
+}
+@media screen and (min-width:500px){
+  td{
+    padding-left: 1rem;
+    border-bottom: 3px solid #fff;
+    font-size: 1.5rem; 
+    padding: 1rem;
+    
+  }
+  table{
+    width: 100%;
+
+  }
+  th{
+    font-size: 2rem;
+  }
+  
+}
+
 /* Set-ExecutionPolicy RemoteSigned -Scope Process */
 
 /* 
