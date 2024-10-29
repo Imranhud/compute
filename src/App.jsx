@@ -20,7 +20,7 @@ const App = () => {
       // <GetStated />
       // <SocialLinks/>
       // <Footer />
-    </div>
+    // </div>
   )
 }
 
