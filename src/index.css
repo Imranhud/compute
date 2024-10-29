@@ -1,1 +1,17 @@
-
+body{
+  background-color: rgb(216, 216, 224);
+  margin-top: 4.5rem;
+}
+.header{
+  position: fixed;
+  top: -1rem;
+left: -.2rem;
+ background-color: rgb(7, 2, 59); 
+ width: 100vw;
+ padding: .5rem;
+ padding-left: 1rem;
+ padding-top: 1.5rem;
+ font-size: .7rem;
+ color: #ffff;
+z-index: 11111;
+}
