@@ -1,43 +1,85 @@
-import React, { useState } from 'react';
 
-function Auth() {
-  const [isLogin, setIsLogin] = useState(true);
 
-  const toggleForm = () => {
-    setIsLogin(!isLogin);
-  };
+import React from 'react';
 
+
+const videos = [
+  {
+    id: 1,
+    title: 'Video 1',
+    src: '001.mp4'
+  },
+  {
+    id: 2,
+    title: 'Video 2',
+    src: '002.mp4',
+  },
+  {
+    id: 3,
+    title: 'Video 3',
+    src: '003.mp4',
+  },
+  {
+    id: 4,
+    title: 'Video 4',
+    src: '004.mp4',
+  },
+  {
+    id: 5,
+    title: 'Video 5',
+    src: '005.mp4',
+  },
+];
+
+const VideoCard = ({ title, src }) => {
   return (
-    <div className="container mx-auto p-4 flex items-center justify-center">
-      <div className="bg-white my-14 shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md">
-        <h1 className="text-2xl font-bold mb-4">{isLogin ? 'Login' : 'Register'}</h1>
-        <form>
-          {!isLogin && (
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2">Username</label>
-              <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Username" />
-            </div>
-          )}
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2">Email</label>
-            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Email" />
-          </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2">Password</label>
-            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="password" placeholder="Password" />
-          </div>
-          <div className="flex items-center justify-between">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-              {isLogin ? 'Login' : 'Register'}
-            </button>
-            <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#" onClick={toggleForm}>
-              {isLogin ? 'Need an account? Register' : 'Have an account? Login'}
-            </a>
-          </div>
-        </form>
-      </div>
+    <div style={styles.card}>
+      <h3>{title}</h3>
+      <video width="320" height="240" controls>
+        <source src={src} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <a href={src} download style={styles.downloadButton}>
+        Download
+      </a>
     </div>
   );
-}
+};
 
-export default Auth;
+const Vid = () => {
+  return (
+    <div style={styles.container}>
+      {videos.map(video => (
+        <VideoCard key={video.id} title={video.title} src={video.src} />
+      ))}
+    </div>
+  );
+};
+
+const styles = {
+  container: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  alignItems: 'center',
+    // padding: '20px',
+  },
+  card: {
+    border: '1px solid #247',
+    borderRadius: '10px',
+    padding: '10px',
+    margin: '10px',
+    width: '320px',
+    textAlign: 'center',
+  },
+  downloadButton: {
+    display: 'inline-block',
+    marginTop: '10px',
+    padding: '8px 16px',
+    backgroundColor: '#007bff',
+    color: 'white',
+    textDecoration: 'none',
+    borderRadius: '5px',
+  },
+};
+export default Vid;
